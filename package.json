@@ -1,11 +1,28 @@
 {
-  "name": "ai-backend",
+  "name": "ai-saas-chatbot-backend",
   "version": "1.0.0",
-  "main": "server.js",
+  "description": "Production-ready AI chatbot backend supporting DeepSeek and OpenRouter",
   "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "dependencies": {
-    "express": "^4.18.2",
     "cors": "^2.8.5",
+    "express": "^4.18.2",
     "node-fetch": "^3.3.2"
-  }
+  },
+  "keywords": [
+    "ai",
+    "chatbot",
+    "saas",
+    "deepseek",
+    "openrouter",
+    "express"
+  ],
+  "license": "MIT"
 }
